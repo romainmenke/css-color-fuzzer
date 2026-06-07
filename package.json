@@ -1,0 +1,27 @@
+{
+  "name": "css-color-fuzzer",
+  "version": "0.0.0",
+  "description": "Fuzzer for CSS color implementations",
+  "private": true,
+  "scripts": {
+    "test": "node ./test.mjs",
+    "serve": "node ./serve.mjs",
+    "install:browsers": "playwright install chromium firefox webkit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romainmenke/css-color-fuzzer.git"
+  },
+  "author": "Romain Menke",
+  "license": "MIT-0",
+  "bugs": {
+    "url": "https://github.com/romainmenke/css-color-fuzzer/issues"
+  },
+  "homepage": "https://github.com/romainmenke/css-color-fuzzer#readme",
+  "dependencies": {
+    "playwright": "^1.53.0"
+  },
+  "volta": {
+    "node": "26.1.0"
+  }
+}
