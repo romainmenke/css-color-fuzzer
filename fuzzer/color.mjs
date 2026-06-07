@@ -15,6 +15,7 @@ export function randomColor(depth = 0) {
 	if (depth <= 3 && randomBoolean()) {
 		functions.push('color-mix');
 		functions.push('contrast-color');
+		functions.push('light-dark');
 		// functions.push('alpha'); // wait for implementations
 	}
 
@@ -49,6 +50,8 @@ export function randomColor(depth = 0) {
 			return colorMix(depth);
 		case 'contrast-color':
 			return contrastColor(depth);
+		case 'light-dark':
+			return lightDark(depth);
 	
 		default:
 			break;
@@ -104,6 +107,10 @@ function colorMix(depth = 0) {
 
 function contrastColor(depth = 0) {
 	return `contrast-color(${color(depth + 1)})`;
+}
+
+function lightDark(depth = 0) {
+	return `light-dark(${color(depth + 1)}, ${color(depth + 1)})`;
 }
 
 function color(depth = 0) {

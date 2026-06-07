@@ -3,6 +3,7 @@ import path from "path";
 import crypto from "crypto";
 import { chromium, firefox, webkit } from "playwright";
 import { createServer } from "./util/create-server.mjs";
+import { isTokenNumeric, stringify, tokenize } from "@csstools/css-tokenizer";
 
 const results = {
 	chromium: [],
@@ -80,12 +81,28 @@ await Promise.all([
 	webkitInstance.close(),
 ]);
 
+function reducePrecision(color) {
+	const tokens = tokenize({ css: color });
+
+	for (let i = 0; i < tokens.length; i++) {
+		const token = tokens[i];
+		if (isTokenNumeric(token)) {
+			const factor = Math.pow(10, 3);
+			const y = Math.round(token[4].value * factor) / factor;
+
+			token[1] = y.toString();
+		}
+	}
+
+	return stringify(...tokens)
+}
+
 for (let i = 0; i < results.chromium.length; i++) {
 	const chromiumResult = results.chromium[i];
 	const firefoxResult = results.firefox[i];
 	const webkitResult = results.webkit[i];
 
-	if (webkitResult.computed !== chromiumResult.computed || webkitResult.computed !== firefoxResult.computed) {
+	if (reducePrecision(webkitResult.computed) !== reducePrecision(chromiumResult.computed) || reducePrecision(webkitResult.computed) !== reducePrecision(firefoxResult.computed)) {
 		console.log('--------------');
 		console.log(`declared: ${webkitResult.declared}`);
 		console.log(`computed - chromium: ${chromiumResult.computed}`);

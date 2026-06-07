@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/romainmenke/css-color-fuzzer#readme",
   "dependencies": {
+    "@csstools/css-tokenizer": "^4.0.0",
     "playwright": "^1.53.0"
   },
   "volta": {
