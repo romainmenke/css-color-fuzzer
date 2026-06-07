@@ -1,0 +1,1208 @@
+{
+	"chromium": [
+		{
+			"declared": "lch( 76.81346 119.033423 calc(136.509429 - 0) )",
+			"computed": "lch(76.8135 119.033 136.509)"
+		},
+		{
+			"declared": "lch( from color( xyz-d65 calc(infinity) 0 sin(1) ) min(50.438397, c) 50 sin(l) / h )",
+			"computed": "lch(50.4384 50 0 / NaN)"
+		},
+		{
+			"declared": "oklch( 0.531528 calc(0.457891 - calc(0.9 / 2.858526)) 14.25911 )",
+			"computed": "oklch(0.531528 0.143043 14.2591)"
+		},
+		{
+			"declared": "hsl( none 0 none )",
+			"computed": "rgb(0, 0, 0)"
+		},
+		{
+			"declared": "hwb( calc(120 + sin(98.870185)) none none )",
+			"computed": "rgb(4, 255, 0)"
+		},
+		{
+			"declared": "oklab( none 0.381871 max(-0.4, -0.33156) / 0.242573 )",
+			"computed": "oklab(none 0.381871 -0.33156 / 0.242573)"
+		},
+		{
+			"declared": "oklab( max(0, 0.550628) clamp(-0.296774, 0.34438, calc(nan)) 0.133333 )",
+			"computed": "oklab(0.550628 0 0.133333)"
+		},
+		{
+			"declared": "color( xyz-d50 0.657301 0 none )",
+			"computed": "color(xyz-d50 0.657301 0 none)"
+		},
+		{
+			"declared": "hsl( calc(-infinity) cos(calc(-47.772764deg * 1.985149)) 67.43531 )",
+			"computed": "rgb(172, 172, 172)"
+		},
+		{
+			"declared": "hwb( 20.715273 0 89.293071 )",
+			"computed": "rgb(27, 9, 0)"
+		},
+		{
+			"declared": "color-mix( in lab , color( xyz none calc(0.5) 0.382833 ) , color( a98-rgb 0.5 calc(0 + 0.551691) calc(e) ) )",
+			"computed": "lab(83.6915 -118.984 -100.526)"
+		},
+		{
+			"declared": "contrast-color(color( from color( srgb 0 none clamp(calc(-infinity), 0.695024, 0.748916) ) xyz-d50 x z 0.19704 ))",
+			"computed": "rgb(0, 0, 0)"
+		},
+		{
+			"declared": "lch( 29.437493 52.337101 none )",
+			"computed": "lch(29.4375 52.3371 none)"
+		},
+		{
+			"declared": "lch( none 150 270.065611 )",
+			"computed": "lch(none 150 270.066)"
+		},
+		{
+			"declared": "color-mix( in lab , color( display-p3 calc(pi) none 0.010754 ) , color( xyz-d50 0.404666 sin(1) 0.050152 ) 31.352705% )",
+			"computed": "lab(100 126.801 241.664)"
+		},
+		{
+			"declared": "hsl( from color( xyz-d50 calc(nan) calc(nan) 1 / 0.355618 ) calc(310.955336 - l) l s )",
+			"computed": "color(srgb 3.90814 5.10825 3.64994 / 0.355618)"
+		},
+		{
+			"declared": "color( from color( rec2020 exp(calc(infinity)) none calc(1.5 / 0.033509) ) xyz 0.925267 calc(x * -2) none )",
+			"computed": "color(xyz-d65 0.925267 calc(NaN) none)"
+		},
+		{
+			"declared": "lab( none 37.832314 sin(0) / 0 )",
+			"computed": "lab(none 37.8323 0 / 0)"
+		},
+		{
+			"declared": "color-mix( in xyz , color( from color( xyz 0 0 exp(49.634489) ) xyz-d50 1 0.790739 none / 0 ) , color( from color( from color( prophoto-rgb none abs(0) none ) xyz 0 calc(0.836786) 0 ) display-p3-linear g r alpha / calc(1.266255 / 2.081481) ) )",
+			"computed": "color(xyz-d65 0.708843 -0.122102 1.00878 / 0.304172)"
+		},
+		{
+			"declared": "color-mix( in lab , color( prophoto-rgb none 0.5 0 / max(0.211449, calc(1.5 - min(0.587623, 0.5))) ) , color( xyz 0.859651 max(0, 0.819759) 0.234201 / calc(8.551719% / 4) ) )",
+			"computed": "lab(53.1893 -120.184 89.7613 / 0.51069)"
+		},
+		{
+			"declared": "oklab( 0.895638 0.171762 exp(-84.505477) )",
+			"computed": "oklab(0.895638 0.171762 1.99406e-37)"
+		},
+		{
+			"declared": "lch( 14.4634 150 207.248609 )",
+			"computed": "lch(14.4634 150 207.249)"
+		},
+		{
+			"declared": "color-mix( in oklab , color( xyz-d50 1 0.332505 0.861174 ) , color( display-p3 0 1 0.931152 ) 55.506526% )",
+			"computed": "oklab(0.832083 0.10786 -0.0923255)"
+		},
+		{
+			"declared": "hsl( 83.280792 66.666667 86.792282 )",
+			"computed": "rgb(226, 244, 199)"
+		},
+		{
+			"declared": "hsl( 0 25.808761 5.406218 )",
+			"computed": "rgb(17, 10, 10)"
+		},
+		{
+			"declared": "oklab( max(1, 0) 0.359619 calc(-1.2000000000000002 / 2.511365) )",
+			"computed": "oklab(1 0.359619 -0.477828)"
+		},
+		{
+			"declared": "contrast-color(color( xyz 0 hypot(calc(0.350588), max(0.5, 0.5)) 0.824896 / min(0.219051, 0) ))",
+			"computed": "rgb(0, 0, 0)"
+		},
+		{
+			"declared": "oklch( from color( xyz-d50 none 0 none / 47.504568% ) 0 clamp(h, 0.180121, l) 0 )",
+			"computed": "oklch(0 0 0 / 0.475046)"
+		},
+		{
+			"declared": "oklch( none 0.112812 101.296691 )",
+			"computed": "oklch(none 0.112812 101.297)"
+		},
+		{
+			"declared": "lab( none calc(pi) -125 )",
+			"computed": "lab(none 3.14159 -125)"
+		},
+		{
+			"declared": "oklab( 0 -0.4 -0.249274 )",
+			"computed": "oklab(0 -0.4 -0.249274)"
+		},
+		{
+			"declared": "hwb( calc(pi) none 0 / 0.797537 )",
+			"computed": "rgba(255, 13, 0, 0.796)"
+		},
+		{
+			"declared": "contrast-color(color( xyz-d50 abs(0.684111) 0.57306 none ))",
+			"computed": "rgb(0, 0, 0)"
+		},
+		{
+			"declared": "rgb( from color( from color( prophoto-rgb 0.067832 1 none ) display-p3-linear r 0.837117 hypot(alpha, 0.277189) ) none 170 255 )",
+			"computed": "color(srgb none 0.666667 1)"
+		},
+		{
+			"declared": "lab( from color( xyz-d50 0.519286 0 0.85035 ) b a a )",
+			"computed": "lab(0 337.837 337.837)"
+		},
+		{
+			"declared": "oklab( 0.528323 none 0.139097 )",
+			"computed": "oklab(0.528323 none 0.139097)"
+		},
+		{
+			"declared": "oklch( from color( from color( xyz calc(0.107571) 0.970619 1 ) display-p3 calc(infinity) none 0.894429 ) 0 hypot(calc(infinity), 0.33992) calc(c) )",
+			"computed": "oklch(0 3.40282e+38 0)"
+		},
+		{
+			"declared": "color( xyz 0.73395 0 0.894323 )",
+			"computed": "color(xyz-d65 0.73395 0 0.894323)"
+		},
+		{
+			"declared": "hwb( none none 36.818593 )",
+			"computed": "rgb(161, 0, 0)"
+		},
+		{
+			"declared": "oklch( 0.896987 0.113354 none )",
+			"computed": "oklch(0.896987 0.113354 none)"
+		},
+		{
+			"declared": "color( display-p3 none none 0 )",
+			"computed": "color(display-p3 none none 0)"
+		},
+		{
+			"declared": "color( from color( xyz-d65 0.502494 0.5 0.206014 ) a98-rgb g none 0.742715 )",
+			"computed": "color(a98-rgb 0.702259 none 0.742715)"
+		},
+		{
+			"declared": "hsl( 111.889675 sin(49.518875) none / calc(2.296464 / calc(pi)) )",
+			"computed": "rgba(0, 0, 0, 0.73)"
+		},
+		{
+			"declared": "lch( 79.566636 none 248.164084 / 0.650355 )",
+			"computed": "lch(79.5666 none 248.164 / 0.650355)"
+		},
+		{
+			"declared": "rgb( cos(sin(-39.00465deg)) 5.328966 none )",
+			"computed": "rgb(1, 5, 0)"
+		},
+		{
+			"declared": "lab( from color( srgb-linear calc(nan) hypot(0, calc(0)) none ) b none 110.608595 / 0.5 )",
+			"computed": "lab(0 none 110.609 / 0.5)"
+		},
+		{
+			"declared": "oklab( 0.454166 0.120185 hypot(-0.12017, 0.4) )",
+			"computed": "oklab(0.454166 0.120185 0.417661)"
+		},
+		{
+			"declared": "lch( from color( prophoto-rgb 0.836032 0.491365 0 / 0 ) 81.938369 clamp(96.656435, calc(infinity), 87.049649) 0 )",
+			"computed": "lch(81.9384 96.6564 0 / 0)"
+		},
+		{
+			"declared": "lch( max(0, calc(39.719879)) max(76.628094, 75) 120 )",
+			"computed": "lch(39.7199 76.6281 120)"
+		},
+		{
+			"declared": "oklab( from color( prophoto-rgb 0.649032 0 calc(nan) / calc(0.116264 * calc(nan)) ) 1 none none )",
+			"computed": "oklab(1 none none / 0)"
+		},
+		{
+			"declared": "hsl( 0 0 0 )",
+			"computed": "rgb(0, 0, 0)"
+		},
+		{
+			"declared": "oklch( from color( a98-rgb calc(e) 0.5 none ) calc(0 - l) none 0 )",
+			"computed": "oklch(0 none 0)"
+		},
+		{
+			"declared": "color( from color( xyz 0.997527 0.274105 0.169855 / 0.450346 ) xyz none 0.469021 none )",
+			"computed": "color(xyz-d65 none 0.469021 none / 0.450346)"
+		},
+		{
+			"declared": "color( from color( from color( a98-rgb none 0.991932 none ) prophoto-rgb cos(118.440287deg) 1 r ) srgb-linear none 0.104915 0.58685 / none )",
+			"computed": "color(srgb-linear none 0.104915 0.58685 / none)"
+		},
+		{
+			"declared": "color( from color( xyz-d65 min(0, calc(e)) calc(0.399462 - 0.527361) none / calc(0.571005) ) srgb-linear calc(pi) calc(infinity) none / hypot(calc(pi), 0.333333) )",
+			"computed": "color(srgb-linear 3.14159 3.40282e+38 none)"
+		},
+		{
+			"declared": "lch( from color( srgb-linear calc(nan) sin(calc(infinity)) none / 1 ) 56.59344 none none )",
+			"computed": "lch(56.5934 none none)"
+		},
+		{
+			"declared": "hwb( 119.555454 0 0 )",
+			"computed": "rgb(2, 255, 0)"
+		},
+		{
+			"declared": "lch( 62.138027 sin(0) 360 )",
+			"computed": "lch(62.138 0 0)"
+		},
+		{
+			"declared": "color( xyz-d50 0.782916 0.5 none )",
+			"computed": "color(xyz-d50 0.782916 0.5 none)"
+		},
+		{
+			"declared": "hwb( from color( from color( a98-rgb none 0.626858 0 ) xyz none x 0.970996 ) 0 16.349414 100 / w )",
+			"computed": "color(srgb 0.14052 0.14052 0.14052 / 0)"
+		},
+		{
+			"declared": "oklch( from color( srgb-linear max(calc(e), 0.367609) 0.281045 0.712498 ) 0.750521 hypot(0.290982, min(0.215155, 0.214018)) 0 )",
+			"computed": "oklch(0.750521 0.361212 0)"
+		},
+		{
+			"declared": "lab( none none -125 )",
+			"computed": "lab(none none -125)"
+		},
+		{
+			"declared": "hsl( 180 none calc(sin(exp(-61.439383)) + 11.610649) )",
+			"computed": "rgb(30, 30, 30)"
+		},
+		{
+			"declared": "oklab( 0.5 none -0.159418 )",
+			"computed": "oklab(0.5 none -0.159418)"
+		},
+		{
+			"declared": "oklch( from color( xyz-d65 abs(0) 0.848978 0.920782 / 0.80835 ) none 0.067687 180 )",
+			"computed": "oklch(none 0.067687 180 / 0.80835)"
+		},
+		{
+			"declared": "hsl( 0 43.531814 41.421196 / 0 )",
+			"computed": "rgba(152, 60, 60, 0)"
+		},
+		{
+			"declared": "oklch( hypot(cos(calc(586.047628deg / calc(infinity))), 0.352099) none min(360, 67.368831) )",
+			"computed": "oklch(1 none 67.3688)"
+		},
+		{
+			"declared": "lch( 100 57.80656 81.539904 )",
+			"computed": "lch(100 57.8066 81.5399)"
+		},
+		{
+			"declared": "oklch( calc(pi) 0.24358 calc(159.378627) )",
+			"computed": "oklch(1 0.24358 159.379)"
+		},
+		{
+			"declared": "oklch( from color( from color( from color( xyz-d50 calc(nan) 0.147588 none / 0.644597 ) a98-rgb alpha 0.00008 calc(-infinity) ) display-p3-linear r 0.5 1 ) none 0.326446 c )",
+			"computed": "oklch(none 0.326446 0 / 0.644597)"
+		},
+		{
+			"declared": "lab( none sin(98.886548) 125 )",
+			"computed": "lab(none -0.997291 125)"
+		},
+		{
+			"declared": "hwb( from color( display-p3 clamp(0.802235, calc(calc(0 / calc(infinity)) * calc(-2.270425 / 1.5)), 0.15989) 0.5 calc(calc(0.392495 + 0.048339) + hypot(exp(100), 0.333333)) ) calc(b / alpha) 100 none / none )",
+			"computed": "color(srgb 1 1 1 / none)"
+		},
+		{
+			"declared": "hsl( 251.846749 none cos(-187.639487deg) / clamp(clamp(1, abs(calc(pi)), 0), sin(1), 0.620274) )",
+			"computed": "rgb(0, 0, 0)"
+		},
+		{
+			"declared": "contrast-color(color( from color( xyz-d65 none none 0.997087 / 71.797342% ) display-p3 1 none 0 ))",
+			"computed": "rgb(0, 0, 0)"
+		},
+		{
+			"declared": "rgb( from color( from color( from color( prophoto-rgb abs(0.751298) calc(pi) 0.01792 ) srgb 0 0 0.5 / 0.788136 ) display-p3 0.759463 0.713658 calc(2.393705 / b) ) none 0 none )",
+			"computed": "color(srgb none 0 none / 0.788136)"
+		},
+		{
+			"declared": "color( xyz-d65 none 0.354107 none )",
+			"computed": "color(xyz-d65 none 0.354107 none)"
+		},
+		{
+			"declared": "oklch( 0 0.188745 none / 0.312419 )",
+			"computed": "oklch(0 0.188745 none / 0.312419)"
+		},
+		{
+			"declared": "lab( 0 18.621462 calc(pi) / 86.855682% )",
+			"computed": "lab(0 18.6215 3.14159 / 0.868557)"
+		},
+		{
+			"declared": "rgb( from color( xyz-d65 1 none 1 ) alpha none cos(r) / 0.667869 )",
+			"computed": "color(srgb 0.00392157 none 0.00319048 / 0.667869)"
+		},
+		{
+			"declared": "color( display-p3 abs(1) 0.981941 none / 0.5 )",
+			"computed": "color(display-p3 1 0.981941 none / 0.5)"
+		},
+		{
+			"declared": "hwb( hypot(calc(91.614105 + calc(infinity)), 360) 86.974146 min(14.309185, calc(nan)) / 0.738563 )",
+			"computed": "rgba(255, 222, 222, 0.737)"
+		},
+		{
+			"declared": "hwb( 180 71.949066 37.587418 / 0.934626 )",
+			"computed": "rgba(167, 167, 167, 0.933)"
+		},
+		{
+			"declared": "rgb( from color( xyz 0.660386 cos(270.929116deg) 0 ) 170 141.640994 253.193691 )",
+			"computed": "color(srgb 0.666667 0.555455 0.992916)"
+		},
+		{
+			"declared": "color( from color( xyz-d50 none 0.838882 calc(pi) ) xyz-d50 0 clamp(0, 0, calc(0 - max(y, 0.292014))) cos(-146.516368deg) )",
+			"computed": "color(xyz-d50 0 0 -0.834043)"
+		},
+		{
+			"declared": "rgb( from color( from color( from color( xyz-d50 0.327099 sin(0.363944) calc(0.589245 - calc(infinity)) / 0.093336 ) display-p3-linear calc(1.049664 - 0) abs(0.107593) 0 ) xyz-d65 calc(pi) 1 abs(x) ) 89.608803 clamp(calc(g * -2), 42.05673, cos(349.083941deg)) b )",
+			"computed": "color(srgb 0.351407 2.12371 0.761748 / 0.093336)"
+		},
+		{
+			"declared": "hwb( from color( from color( srgb none 0.501339 none ) prophoto-rgb b 0 0 ) 161.781168 58.267949 none )",
+			"computed": "color(srgb 0.58268 1 0.873282)"
+		},
+		{
+			"declared": "oklab( from color( srgb calc(e) abs(0) 0 / 0.589259 ) a 0.4 -0.303527 )",
+			"computed": "oklab(0.487241 0.4 -0.303527 / 0.589259)"
+		},
+		{
+			"declared": "color( xyz-d65 0.411886 0.295181 0.898762 )",
+			"computed": "color(xyz-d65 0.411886 0.295181 0.898762)"
+		},
+		{
+			"declared": "hsl( 139.567303 calc(infinity) 50 )",
+			"computed": "rgb(0, 255, 0)"
+		},
+		{
+			"declared": "hwb( none 52.950247 hypot(calc(infinity), clamp(9.809282, 53.117561, calc(0 / 0.35307))) / max(0.75302, calc(e)) )",
+			"computed": "rgb(0, 0, 0)"
+		},
+		{
+			"declared": "oklch( 0 0.305743 236.751187 )",
+			"computed": "oklch(0 0.305743 236.751)"
+		},
+		{
+			"declared": "color-mix( in rec2020 , color( xyz 0.840428 0 1 ) , color( from color( srgb calc(e) 0.834866 0 / 48.24101% ) xyz 0.485381 0 z ) )",
+			"computed": "color(rec2020 1.01926 -0.678808 0.825612 / 0.741205)"
+		},
+		{
+			"declared": "hwb( from color( display-p3-linear calc(-infinity) 0.498093 0.265947 ) 360 none 90.9253 / calc(h * sin(-1.498515)) )",
+			"computed": "color(srgb 0.090747 0 0 / NaN)"
+		},
+		{
+			"declared": "rgb( from color( from color( from color( xyz-d50 none 0.349999 calc(-infinity) ) a98-rgb 0.891044 none g ) srgb-linear g 0.487974 alpha ) g none r / g )",
+			"computed": "color(srgb 0.727421 none 1.34370e+16)"
+		},
+		{
+			"declared": "rgb( 0 0 0 )",
+			"computed": "rgb(0, 0, 0)"
+		},
+		{
+			"declared": "oklch( 0.760401 0 254.713758 )",
+			"computed": "oklch(0.760401 0 254.714)"
+		},
+		{
+			"declared": "oklab( from color( xyz-d65 0 none 0 ) calc(nan) -0.4 b )",
+			"computed": "oklab(0 -0.4 0)"
+		},
+		{
+			"declared": "hwb( from color( xyz-d65 calc(nan) calc(infinity) 0.818869 ) w none alpha )",
+			"computed": "color(srgb 0.99 0 0)"
+		},
+		{
+			"declared": "oklab( 0.417264 -0.063559 0.396159 / 0.905242 )",
+			"computed": "oklab(0.417264 -0.063559 0.396159 / 0.905242)"
+		},
+		{
+			"declared": "color( prophoto-rgb calc(0.169183 * calc(e)) 0.426778 0.282458 / 0.978624 )",
+			"computed": "color(prophoto-rgb 0.459887 0.426778 0.282458 / 0.978624)"
+		}
+	],
+	"firefox": [
+		{
+			"declared": "lch( 76.81346 119.033423 calc(136.509429 - 0) )",
+			"computed": "lch(76.8135 119.033 136.509)"
+		},
+		{
+			"declared": "lch( from color( xyz-d65 calc(infinity) 0 sin(1) ) min(50.438397, c) 50 sin(l) / h )",
+			"computed": "rgba(0, 0, 0, 0)"
+		},
+		{
+			"declared": "oklch( 0.531528 calc(0.457891 - calc(0.9 / 2.858526)) 14.25911 )",
+			"computed": "oklch(0.531528 0.143043 14.2591)"
+		},
+		{
+			"declared": "hsl( none 0 none )",
+			"computed": "rgb(0, 0, 0)"
+		},
+		{
+			"declared": "hwb( calc(120 + sin(98.870185)) none none )",
+			"computed": "rgb(4, 255, 0)"
+		},
+		{
+			"declared": "oklab( none 0.381871 max(-0.4, -0.33156) / 0.242573 )",
+			"computed": "oklab(none 0.381871 -0.33156 / 0.243)"
+		},
+		{
+			"declared": "oklab( max(0, 0.550628) clamp(-0.296774, 0.34438, calc(nan)) 0.133333 )",
+			"computed": "oklab(0.550628 calc(NaN) 0.133333)"
+		},
+		{
+			"declared": "color( xyz-d50 0.657301 0 none )",
+			"computed": "color(xyz-d50 0.657301 0 none)"
+		},
+		{
+			"declared": "hsl( calc(-infinity) cos(calc(-47.772764deg * 1.985149)) 67.43531 )",
+			"computed": "rgb(172, 172, 172)"
+		},
+		{
+			"declared": "hwb( 20.715273 0 89.293071 )",
+			"computed": "rgb(27, 9, 0)"
+		},
+		{
+			"declared": "color-mix( in lab , color( xyz none calc(0.5) 0.382833 ) , color( a98-rgb 0.5 calc(0 + 0.551691) calc(e) ) )",
+			"computed": "lab(91.9995 118.159 -216.523)"
+		},
+		{
+			"declared": "contrast-color(color( from color( srgb 0 none clamp(calc(-infinity), 0.695024, 0.748916) ) xyz-d50 x z 0.19704 ))",
+			"computed": "rgb(255, 255, 255)"
+		},
+		{
+			"declared": "lch( 29.437493 52.337101 none )",
+			"computed": "lch(29.4375 52.3371 none)"
+		},
+		{
+			"declared": "lch( none 150 270.065611 )",
+			"computed": "lch(none 150 270.066)"
+		},
+		{
+			"declared": "color-mix( in lab , color( display-p3 calc(pi) none 0.010754 ) , color( xyz-d50 0.404666 sin(1) 0.050152 ) 31.352705% )",
+			"computed": "lab(93.5144 -97.7052 110.182)"
+		},
+		{
+			"declared": "hsl( from color( xyz-d50 calc(nan) calc(nan) 1 / 0.355618 ) calc(310.955336 - l) l s )",
+			"computed": "color(srgb 3.90834 5.1085 3.65016 / 0.356)"
+		},
+		{
+			"declared": "color( from color( rec2020 exp(calc(infinity)) none calc(1.5 / 0.033509) ) xyz 0.925267 calc(x * -2) none )",
+			"computed": "color(xyz-d65 0.925267 0 none)"
+		},
+		{
+			"declared": "lab( none 37.832314 sin(0) / 0 )",
+			"computed": "lab(none 37.8323 0 / 0)"
+		},
+		{
+			"declared": "color-mix( in xyz , color( from color( xyz 0 0 exp(49.634489) ) xyz-d50 1 0.790739 none / 0 ) , color( from color( from color( prophoto-rgb none abs(0) none ) xyz 0 calc(0.836786) 0 ) display-p3-linear g r alpha / calc(1.266255 / 2.081481) ) )",
+			"computed": "color(xyz-d65 0.708843 -0.122101 1.00878 / 0.304)"
+		},
+		{
+			"declared": "color-mix( in lab , color( prophoto-rgb none 0.5 0 / max(0.211449, calc(1.5 - min(0.587623, 0.5))) ) , color( xyz 0.859651 max(0, 0.819759) 0.234201 / calc(8.551719% / 4) ) )",
+			"computed": "lab(93.1626 19.5296 67.7056 / 0.51)"
+		},
+		{
+			"declared": "oklab( 0.895638 0.171762 exp(-84.505477) )",
+			"computed": "oklab(0.895638 0.171762 1.99406e-37)"
+		},
+		{
+			"declared": "lch( 14.4634 150 207.248609 )",
+			"computed": "lch(14.4634 150 207.249)"
+		},
+		{
+			"declared": "color-mix( in oklab , color( xyz-d50 1 0.332505 0.861174 ) , color( display-p3 0 1 0.931152 ) 55.506526% )",
+			"computed": "oklab(0.832076 0.107859 -0.0923416)"
+		},
+		{
+			"declared": "hsl( 83.280792 66.666667 86.792282 )",
+			"computed": "rgb(226, 244, 199)"
+		},
+		{
+			"declared": "hsl( 0 25.808761 5.406218 )",
+			"computed": "rgb(17, 10, 10)"
+		},
+		{
+			"declared": "oklab( max(1, 0) 0.359619 calc(-1.2000000000000002 / 2.511365) )",
+			"computed": "oklab(1 0.359619 -0.477828)"
+		},
+		{
+			"declared": "contrast-color(color( xyz 0 hypot(calc(0.350588), max(0.5, 0.5)) 0.824896 / min(0.219051, 0) ))",
+			"computed": "rgb(0, 0, 0)"
+		},
+		{
+			"declared": "oklch( from color( xyz-d50 none 0 none / 47.504568% ) 0 clamp(h, 0.180121, l) 0 )",
+			"computed": "oklch(0 0 0 / 0.475)"
+		},
+		{
+			"declared": "oklch( none 0.112812 101.296691 )",
+			"computed": "oklch(none 0.112812 101.297)"
+		},
+		{
+			"declared": "lab( none calc(pi) -125 )",
+			"computed": "lab(none 3.14159 -125)"
+		},
+		{
+			"declared": "oklab( 0 -0.4 -0.249274 )",
+			"computed": "oklab(0 -0.4 -0.249274)"
+		},
+		{
+			"declared": "hwb( calc(pi) none 0 / 0.797537 )",
+			"computed": "rgba(255, 13, 0, 0.798)"
+		},
+		{
+			"declared": "contrast-color(color( xyz-d50 abs(0.684111) 0.57306 none ))",
+			"computed": "rgb(255, 255, 255)"
+		},
+		{
+			"declared": "rgb( from color( from color( prophoto-rgb 0.067832 1 none ) display-p3-linear r 0.837117 hypot(alpha, 0.277189) ) none 170 255 )",
+			"computed": "color(srgb none 0.666667 1)"
+		},
+		{
+			"declared": "lab( from color( xyz-d50 0.519286 0 0.85035 ) b a a )",
+			"computed": "lab(0 337.823 337.823)"
+		},
+		{
+			"declared": "oklab( 0.528323 none 0.139097 )",
+			"computed": "oklab(0.528323 none 0.139097)"
+		},
+		{
+			"declared": "oklch( from color( from color( xyz calc(0.107571) 0.970619 1 ) display-p3 calc(infinity) none 0.894429 ) 0 hypot(calc(infinity), 0.33992) calc(c) )",
+			"computed": "oklch(0 calc(infinity) 0)"
+		},
+		{
+			"declared": "color( xyz 0.73395 0 0.894323 )",
+			"computed": "color(xyz-d65 0.73395 0 0.894323)"
+		},
+		{
+			"declared": "hwb( none none 36.818593 )",
+			"computed": "rgb(161, 0, 0)"
+		},
+		{
+			"declared": "oklch( 0.896987 0.113354 none )",
+			"computed": "oklch(0.896987 0.113354 none)"
+		},
+		{
+			"declared": "color( display-p3 none none 0 )",
+			"computed": "color(display-p3 none none 0)"
+		},
+		{
+			"declared": "color( from color( xyz-d65 0.502494 0.5 0.206014 ) a98-rgb g none 0.742715 )",
+			"computed": "color(a98-rgb 0.702168 none 0.742715)"
+		},
+		{
+			"declared": "hsl( 111.889675 sin(49.518875) none / calc(2.296464 / calc(pi)) )",
+			"computed": "rgba(0, 0, 0, 0.73)"
+		},
+		{
+			"declared": "lch( 79.566636 none 248.164084 / 0.650355 )",
+			"computed": "lch(79.5666 none 248.164 / 0.65)"
+		},
+		{
+			"declared": "rgb( cos(sin(-39.00465deg)) 5.328966 none )",
+			"computed": "rgb(1, 5, 0)"
+		},
+		{
+			"declared": "lab( from color( srgb-linear calc(nan) hypot(0, calc(0)) none ) b none 110.608595 / 0.5 )",
+			"computed": "lab(0 none 110.609 / 0.5)"
+		},
+		{
+			"declared": "oklab( 0.454166 0.120185 hypot(-0.12017, 0.4) )",
+			"computed": "oklab(0.454166 0.120185 0.417661)"
+		},
+		{
+			"declared": "lch( from color( prophoto-rgb 0.836032 0.491365 0 / 0 ) 81.938369 clamp(96.656435, calc(infinity), 87.049649) 0 )",
+			"computed": "lch(81.9384 96.6564 0 / 0)"
+		},
+		{
+			"declared": "lch( max(0, calc(39.719879)) max(76.628094, 75) 120 )",
+			"computed": "lch(39.7199 76.6281 120)"
+		},
+		{
+			"declared": "oklab( from color( prophoto-rgb 0.649032 0 calc(nan) / calc(0.116264 * calc(nan)) ) 1 none none )",
+			"computed": "oklab(1 none none / 0)"
+		},
+		{
+			"declared": "hsl( 0 0 0 )",
+			"computed": "rgb(0, 0, 0)"
+		},
+		{
+			"declared": "oklch( from color( a98-rgb calc(e) 0.5 none ) calc(0 - l) none 0 )",
+			"computed": "oklch(0 none 0)"
+		},
+		{
+			"declared": "color( from color( xyz 0.997527 0.274105 0.169855 / 0.450346 ) xyz none 0.469021 none )",
+			"computed": "color(xyz-d65 none 0.469021 none / 0.45)"
+		},
+		{
+			"declared": "color( from color( from color( a98-rgb none 0.991932 none ) prophoto-rgb cos(118.440287deg) 1 r ) srgb-linear none 0.104915 0.58685 / none )",
+			"computed": "color(srgb-linear none 0.104915 0.58685 / none)"
+		},
+		{
+			"declared": "color( from color( xyz-d65 min(0, calc(e)) calc(0.399462 - 0.527361) none / calc(0.571005) ) srgb-linear calc(pi) calc(infinity) none / hypot(calc(pi), 0.333333) )",
+			"computed": "color(srgb-linear 3.14159 calc(infinity) none)"
+		},
+		{
+			"declared": "lch( from color( srgb-linear calc(nan) sin(calc(infinity)) none / 1 ) 56.59344 none none )",
+			"computed": "lch(56.5934 none none)"
+		},
+		{
+			"declared": "hwb( 119.555454 0 0 )",
+			"computed": "rgb(2, 255, 0)"
+		},
+		{
+			"declared": "lch( 62.138027 sin(0) 360 )",
+			"computed": "lch(62.138 0 0)"
+		},
+		{
+			"declared": "color( xyz-d50 0.782916 0.5 none )",
+			"computed": "color(xyz-d50 0.782916 0.5 none)"
+		},
+		{
+			"declared": "hwb( from color( from color( a98-rgb none 0.626858 0 ) xyz none x 0.970996 ) 0 16.349414 100 / w )",
+			"computed": "color(srgb 0.14052 0.14052 0.14052 / 0)"
+		},
+		{
+			"declared": "oklch( from color( srgb-linear max(calc(e), 0.367609) 0.281045 0.712498 ) 0.750521 hypot(0.290982, min(0.215155, 0.214018)) 0 )",
+			"computed": "oklch(0.750521 0.361212 0)"
+		},
+		{
+			"declared": "lab( none none -125 )",
+			"computed": "lab(none none -125)"
+		},
+		{
+			"declared": "hsl( 180 none calc(sin(exp(-61.439383)) + 11.610649) )",
+			"computed": "rgb(30, 30, 30)"
+		},
+		{
+			"declared": "oklab( 0.5 none -0.159418 )",
+			"computed": "oklab(0.5 none -0.159418)"
+		},
+		{
+			"declared": "oklch( from color( xyz-d65 abs(0) 0.848978 0.920782 / 0.80835 ) none 0.067687 180 )",
+			"computed": "oklch(none 0.067687 180 / 0.808)"
+		},
+		{
+			"declared": "hsl( 0 43.531814 41.421196 / 0 )",
+			"computed": "rgba(152, 60, 60, 0)"
+		},
+		{
+			"declared": "oklch( hypot(cos(calc(586.047628deg / calc(infinity))), 0.352099) none min(360, 67.368831) )",
+			"computed": "oklch(1 none 67.3688)"
+		},
+		{
+			"declared": "lch( 100 57.80656 81.539904 )",
+			"computed": "lch(100 57.8066 81.5399)"
+		},
+		{
+			"declared": "oklch( calc(pi) 0.24358 calc(159.378627) )",
+			"computed": "oklch(1 0.24358 159.379)"
+		},
+		{
+			"declared": "oklch( from color( from color( from color( xyz-d50 calc(nan) 0.147588 none / 0.644597 ) a98-rgb alpha 0.00008 calc(-infinity) ) display-p3-linear r 0.5 1 ) none 0.326446 c )",
+			"computed": "oklch(none 0.326446 0.188463 / 0.645)"
+		},
+		{
+			"declared": "lab( none sin(98.886548) 125 )",
+			"computed": "lab(none -0.997291 125)"
+		},
+		{
+			"declared": "hwb( from color( display-p3 clamp(0.802235, calc(calc(0 / calc(infinity)) * calc(-2.270425 / 1.5)), 0.15989) 0.5 calc(calc(0.392495 + 0.048339) + hypot(exp(100), 0.333333)) ) calc(b / alpha) 100 none / none )",
+			"computed": "color(srgb 1 1 1 / none)"
+		},
+		{
+			"declared": "hsl( 251.846749 none cos(-187.639487deg) / clamp(clamp(1, abs(calc(pi)), 0), sin(1), 0.620274) )",
+			"computed": "rgb(0, 0, 0)"
+		},
+		{
+			"declared": "contrast-color(color( from color( xyz-d65 none none 0.997087 / 71.797342% ) display-p3 1 none 0 ))",
+			"computed": "rgb(255, 255, 255)"
+		},
+		{
+			"declared": "rgb( from color( from color( from color( prophoto-rgb abs(0.751298) calc(pi) 0.01792 ) srgb 0 0 0.5 / 0.788136 ) display-p3 0.759463 0.713658 calc(2.393705 / b) ) none 0 none )",
+			"computed": "color(srgb none 0 none / 0.79)"
+		},
+		{
+			"declared": "color( xyz-d65 none 0.354107 none )",
+			"computed": "color(xyz-d65 none 0.354107 none)"
+		},
+		{
+			"declared": "oklch( 0 0.188745 none / 0.312419 )",
+			"computed": "oklch(0 0.188745 none / 0.312)"
+		},
+		{
+			"declared": "lab( 0 18.621462 calc(pi) / 86.855682% )",
+			"computed": "lab(0 18.6215 3.14159 / 0.869)"
+		},
+		{
+			"declared": "rgb( from color( xyz-d65 1 none 1 ) alpha none cos(r) / 0.667869 )",
+			"computed": "rgba(0, 0, 0, 0)"
+		},
+		{
+			"declared": "color( display-p3 abs(1) 0.981941 none / 0.5 )",
+			"computed": "color(display-p3 1 0.981941 none / 0.5)"
+		},
+		{
+			"declared": "hwb( hypot(calc(91.614105 + calc(infinity)), 360) 86.974146 min(14.309185, calc(nan)) / 0.738563 )",
+			"computed": "rgba(255, 222, 222, 0.739)"
+		},
+		{
+			"declared": "hwb( 180 71.949066 37.587418 / 0.934626 )",
+			"computed": "rgba(167, 167, 167, 0.935)"
+		},
+		{
+			"declared": "rgb( from color( xyz 0.660386 cos(270.929116deg) 0 ) 170 141.640994 253.193691 )",
+			"computed": "color(srgb 0.666667 0.555455 0.992916)"
+		},
+		{
+			"declared": "color( from color( xyz-d50 none 0.838882 calc(pi) ) xyz-d50 0 clamp(0, 0, calc(0 - max(y, 0.292014))) cos(-146.516368deg) )",
+			"computed": "color(xyz-d50 0 0 -0.834043)"
+		},
+		{
+			"declared": "rgb( from color( from color( from color( xyz-d50 0.327099 sin(0.363944) calc(0.589245 - calc(infinity)) / 0.093336 ) display-p3-linear calc(1.049664 - 0) abs(0.107593) 0 ) xyz-d65 calc(pi) 1 abs(x) ) 89.608803 clamp(calc(g * -2), 42.05673, cos(349.083941deg)) b )",
+			"computed": "color(srgb 0.351407 2.12376 0.761638 / 0.093)"
+		},
+		{
+			"declared": "hwb( from color( from color( srgb none 0.501339 none ) prophoto-rgb b 0 0 ) 161.781168 58.267949 none )",
+			"computed": "color(srgb 0.58268 1 0.873282)"
+		},
+		{
+			"declared": "oklab( from color( srgb calc(e) abs(0) 0 / 0.589259 ) a 0.4 -0.303527 )",
+			"computed": "oklab(0.487205 0.4 -0.303527 / 0.59)"
+		},
+		{
+			"declared": "color( xyz-d65 0.411886 0.295181 0.898762 )",
+			"computed": "color(xyz-d65 0.411886 0.295181 0.898762)"
+		},
+		{
+			"declared": "hsl( 139.567303 calc(infinity) 50 )",
+			"computed": "rgb(0, 255, 83)"
+		},
+		{
+			"declared": "hwb( none 52.950247 hypot(calc(infinity), clamp(9.809282, 53.117561, calc(0 / 0.35307))) / max(0.75302, calc(e)) )",
+			"computed": "rgb(88, 88, 88)"
+		},
+		{
+			"declared": "oklch( 0 0.305743 236.751187 )",
+			"computed": "oklch(0 0.305743 236.751)"
+		},
+		{
+			"declared": "color-mix( in rec2020 , color( xyz 0.840428 0 1 ) , color( from color( srgb calc(e) 0.834866 0 / 48.24101% ) xyz 0.485381 0 z ) )",
+			"computed": "color(rec2020 1.01925 -0.678807 0.825659 / 0.74)"
+		},
+		{
+			"declared": "hwb( from color( display-p3-linear calc(-infinity) 0.498093 0.265947 ) 360 none 90.9253 / calc(h * sin(-1.498515)) )",
+			"computed": "color(srgb 0.090747 0 0 / 0)"
+		},
+		{
+			"declared": "rgb( from color( from color( from color( xyz-d50 none 0.349999 calc(-infinity) ) a98-rgb 0.891044 none g ) srgb-linear g 0.487974 alpha ) g none r / g )",
+			"computed": "color(srgb 0.72738 none 7.70092e-7)"
+		},
+		{
+			"declared": "rgb( 0 0 0 )",
+			"computed": "rgb(0, 0, 0)"
+		},
+		{
+			"declared": "oklch( 0.760401 0 254.713758 )",
+			"computed": "oklch(0.760401 0 254.714)"
+		},
+		{
+			"declared": "oklab( from color( xyz-d65 0 none 0 ) calc(nan) -0.4 b )",
+			"computed": "oklab(calc(NaN) -0.4 0)"
+		},
+		{
+			"declared": "hwb( from color( xyz-d65 calc(nan) calc(infinity) 0.818869 ) w none alpha )",
+			"computed": "color(srgb 0.99 0 0)"
+		},
+		{
+			"declared": "oklab( 0.417264 -0.063559 0.396159 / 0.905242 )",
+			"computed": "oklab(0.417264 -0.063559 0.396159 / 0.905)"
+		},
+		{
+			"declared": "color( prophoto-rgb calc(0.169183 * calc(e)) 0.426778 0.282458 / 0.978624 )",
+			"computed": "color(prophoto-rgb 0.459887 0.426778 0.282458 / 0.98)"
+		}
+	],
+	"webkit": [
+		{
+			"declared": "lch( 76.81346 119.033423 calc(136.509429 - 0) )",
+			"computed": "lch(76.813461 119.033424 136.50943)"
+		},
+		{
+			"declared": "lch( from color( xyz-d65 calc(infinity) 0 sin(1) ) min(50.438397, c) 50 sin(l) / h )",
+			"computed": "lch(50.438396 50 359.493622)"
+		},
+		{
+			"declared": "oklch( 0.531528 calc(0.457891 - calc(0.9 / 2.858526)) 14.25911 )",
+			"computed": "oklch(0.531528 0.143043 14.25911)"
+		},
+		{
+			"declared": "hsl( none 0 none )",
+			"computed": "rgb(0, 0, 0)"
+		},
+		{
+			"declared": "hwb( calc(120 + sin(98.870185)) none none )",
+			"computed": "rgb(4, 255, 0)"
+		},
+		{
+			"declared": "oklab( none 0.381871 max(-0.4, -0.33156) / 0.242573 )",
+			"computed": "oklab(none 0.381871 -0.33156 / 0.242573)"
+		},
+		{
+			"declared": "oklab( max(0, 0.550628) clamp(-0.296774, 0.34438, calc(nan)) 0.133333 )",
+			"computed": "oklab(0.550628 0 0.133333)"
+		},
+		{
+			"declared": "color( xyz-d50 0.657301 0 none )",
+			"computed": "color(xyz-d50 0.657301 0 none)"
+		},
+		{
+			"declared": "hsl( calc(-infinity) cos(calc(-47.772764deg * 1.985149)) 67.43531 )",
+			"computed": "rgb(172, 172, 172)"
+		},
+		{
+			"declared": "hwb( 20.715273 0 89.293071 )",
+			"computed": "rgb(27, 9, 0)"
+		},
+		{
+			"declared": "color-mix( in lab , color( xyz none calc(0.5) 0.382833 ) , color( a98-rgb 0.5 calc(0 + 0.551691) calc(e) ) )",
+			"computed": "lab(83.684326 -118.983429 -100.499557)"
+		},
+		{
+			"declared": "contrast-color(color( from color( srgb 0 none clamp(calc(-infinity), 0.695024, 0.748916) ) xyz-d50 x z 0.19704 ))",
+			"computed": "rgb(0, 0, 0)"
+		},
+		{
+			"declared": "lch( 29.437493 52.337101 none )",
+			"computed": "lch(29.437492 52.337101 none)"
+		},
+		{
+			"declared": "lch( none 150 270.065611 )",
+			"computed": "lch(none 150 270.065613)"
+		},
+		{
+			"declared": "color-mix( in lab , color( display-p3 calc(pi) none 0.010754 ) , color( xyz-d50 0.404666 sin(1) 0.050152 ) 31.352705% )",
+			"computed": "lab(97.966576 126.780624 241.68248)"
+		},
+		{
+			"declared": "hsl( from color( xyz-d50 calc(nan) calc(nan) 1 / 0.355618 ) calc(310.955336 - l) l s )",
+			"computed": "color(srgb 3.90834 5.108508 3.650162 / 0.355618)"
+		},
+		{
+			"declared": "color( from color( rec2020 exp(calc(infinity)) none calc(1.5 / 0.033509) ) xyz 0.925267 calc(x * -2) none )",
+			"computed": "color(xyz-d65 0.925267 calc(-infinity) none)"
+		},
+		{
+			"declared": "lab( none 37.832314 sin(0) / 0 )",
+			"computed": "lab(none 37.832314 0 / 0)"
+		},
+		{
+			"declared": "color-mix( in xyz , color( from color( xyz 0 0 exp(49.634489) ) xyz-d50 1 0.790739 none / 0 ) , color( from color( from color( prophoto-rgb none abs(0) none ) xyz 0 calc(0.836786) 0 ) display-p3-linear g r alpha / calc(1.266255 / 2.081481) ) )",
+			"computed": "color(xyz-d65 0.708843 -0.122101 1.008784 / 0.304172)"
+		},
+		{
+			"declared": "color-mix( in lab , color( prophoto-rgb none 0.5 0 / max(0.211449, calc(1.5 - min(0.587623, 0.5))) ) , color( xyz 0.859651 max(0, 0.819759) 0.234201 / calc(8.551719% / 4) ) )",
+			"computed": "lab(53.188046 -120.189034 89.758553 / 0.51069)"
+		},
+		{
+			"declared": "oklab( 0.895638 0.171762 exp(-84.505477) )",
+			"computed": "oklab(0.895638 0.171762 0)"
+		},
+		{
+			"declared": "lch( 14.4634 150 207.248609 )",
+			"computed": "lch(14.4634 150 207.248611)"
+		},
+		{
+			"declared": "color-mix( in oklab , color( xyz-d50 1 0.332505 0.861174 ) , color( display-p3 0 1 0.931152 ) 55.506526% )",
+			"computed": "oklab(0.832076 0.107859 -0.092342)"
+		},
+		{
+			"declared": "hsl( 83.280792 66.666667 86.792282 )",
+			"computed": "rgb(226, 244, 199)"
+		},
+		{
+			"declared": "hsl( 0 25.808761 5.406218 )",
+			"computed": "rgb(17, 10, 10)"
+		},
+		{
+			"declared": "oklab( max(1, 0) 0.359619 calc(-1.2000000000000002 / 2.511365) )",
+			"computed": "oklab(1 0.359619 -0.477828)"
+		},
+		{
+			"declared": "contrast-color(color( xyz 0 hypot(calc(0.350588), max(0.5, 0.5)) 0.824896 / min(0.219051, 0) ))",
+			"computed": "rgb(0, 0, 0)"
+		},
+		{
+			"declared": "oklch( from color( xyz-d50 none 0 none / 47.504568% ) 0 clamp(h, 0.180121, l) 0 )",
+			"computed": "oklch(0 0 0 / 0.475046)"
+		},
+		{
+			"declared": "oklch( none 0.112812 101.296691 )",
+			"computed": "oklch(none 0.112812 101.296692)"
+		},
+		{
+			"declared": "lab( none calc(pi) -125 )",
+			"computed": "lab(none 3.141593 -125)"
+		},
+		{
+			"declared": "oklab( 0 -0.4 -0.249274 )",
+			"computed": "oklab(0 -0.4 -0.249274)"
+		},
+		{
+			"declared": "hwb( calc(pi) none 0 / 0.797537 )",
+			"computed": "rgba(255, 13, 0, 0.796)"
+		},
+		{
+			"declared": "contrast-color(color( xyz-d50 abs(0.684111) 0.57306 none ))",
+			"computed": "rgb(0, 0, 0)"
+		},
+		{
+			"declared": "rgb( from color( from color( prophoto-rgb 0.067832 1 none ) display-p3-linear r 0.837117 hypot(alpha, 0.277189) ) none 170 255 )",
+			"computed": "color(srgb none 0.666667 1)"
+		},
+		{
+			"declared": "lab( from color( xyz-d50 0.519286 0 0.85035 ) b a a )",
+			"computed": "lab(0 337.82309 337.82309)"
+		},
+		{
+			"declared": "oklab( 0.528323 none 0.139097 )",
+			"computed": "oklab(0.528323 none 0.139097)"
+		},
+		{
+			"declared": "oklch( from color( from color( xyz calc(0.107571) 0.970619 1 ) display-p3 calc(infinity) none 0.894429 ) 0 hypot(calc(infinity), 0.33992) calc(c) )",
+			"computed": "oklch(0 calc(infinity) 0)"
+		},
+		{
+			"declared": "color( xyz 0.73395 0 0.894323 )",
+			"computed": "color(xyz-d65 0.73395 0 0.894323)"
+		},
+		{
+			"declared": "hwb( none none 36.818593 )",
+			"computed": "rgb(161, 0, 0)"
+		},
+		{
+			"declared": "oklch( 0.896987 0.113354 none )",
+			"computed": "oklch(0.896987 0.113354 none)"
+		},
+		{
+			"declared": "color( display-p3 none none 0 )",
+			"computed": "color(display-p3 none none 0)"
+		},
+		{
+			"declared": "color( from color( xyz-d65 0.502494 0.5 0.206014 ) a98-rgb g none 0.742715 )",
+			"computed": "color(a98-rgb 0.702168 none 0.742715)"
+		},
+		{
+			"declared": "hsl( 111.889675 sin(49.518875) none / calc(2.296464 / calc(pi)) )",
+			"computed": "rgba(0, 0, 0, 0.73)"
+		},
+		{
+			"declared": "lch( 79.566636 none 248.164084 / 0.650355 )",
+			"computed": "lch(79.566635 none 248.164078 / 0.650355)"
+		},
+		{
+			"declared": "rgb( cos(sin(-39.00465deg)) 5.328966 none )",
+			"computed": "rgb(1, 5, 0)"
+		},
+		{
+			"declared": "lab( from color( srgb-linear calc(nan) hypot(0, calc(0)) none ) b none 110.608595 / 0.5 )",
+			"computed": "lab(0 none 110.608597 / 0.5)"
+		},
+		{
+			"declared": "oklab( 0.454166 0.120185 hypot(-0.12017, 0.4) )",
+			"computed": "oklab(0.454166 0.120185 0.417661)"
+		},
+		{
+			"declared": "lch( from color( prophoto-rgb 0.836032 0.491365 0 / 0 ) 81.938369 clamp(96.656435, calc(infinity), 87.049649) 0 )",
+			"computed": "lch(81.93837 96.656433 0 / 0)"
+		},
+		{
+			"declared": "lch( max(0, calc(39.719879)) max(76.628094, 75) 120 )",
+			"computed": "lch(39.719879 76.628098 120)"
+		},
+		{
+			"declared": "oklab( from color( prophoto-rgb 0.649032 0 calc(nan) / calc(0.116264 * calc(nan)) ) 1 none none )",
+			"computed": "oklab(1 none none / 0)"
+		},
+		{
+			"declared": "hsl( 0 0 0 )",
+			"computed": "rgb(0, 0, 0)"
+		},
+		{
+			"declared": "oklch( from color( a98-rgb calc(e) 0.5 none ) calc(0 - l) none 0 )",
+			"computed": "oklch(0 none 0)"
+		},
+		{
+			"declared": "color( from color( xyz 0.997527 0.274105 0.169855 / 0.450346 ) xyz none 0.469021 none )",
+			"computed": "color(xyz-d65 none 0.469021 none / 0.450346)"
+		},
+		{
+			"declared": "color( from color( from color( a98-rgb none 0.991932 none ) prophoto-rgb cos(118.440287deg) 1 r ) srgb-linear none 0.104915 0.58685 / none )",
+			"computed": "color(srgb-linear none 0.104915 0.58685 / none)"
+		},
+		{
+			"declared": "color( from color( xyz-d65 min(0, calc(e)) calc(0.399462 - 0.527361) none / calc(0.571005) ) srgb-linear calc(pi) calc(infinity) none / hypot(calc(pi), 0.333333) )",
+			"computed": "color(srgb-linear 3.141593 calc(infinity) none)"
+		},
+		{
+			"declared": "lch( from color( srgb-linear calc(nan) sin(calc(infinity)) none / 1 ) 56.59344 none none )",
+			"computed": "lch(56.593441 none none)"
+		},
+		{
+			"declared": "hwb( 119.555454 0 0 )",
+			"computed": "rgb(2, 255, 0)"
+		},
+		{
+			"declared": "lch( 62.138027 sin(0) 360 )",
+			"computed": "lch(62.138027 0 0)"
+		},
+		{
+			"declared": "color( xyz-d50 0.782916 0.5 none )",
+			"computed": "color(xyz-d50 0.782916 0.5 none)"
+		},
+		{
+			"declared": "hwb( from color( from color( a98-rgb none 0.626858 0 ) xyz none x 0.970996 ) 0 16.349414 100 / w )",
+			"computed": "color(srgb 0.14052 0.14052 0.14052 / 0)"
+		},
+		{
+			"declared": "oklch( from color( srgb-linear max(calc(e), 0.367609) 0.281045 0.712498 ) 0.750521 hypot(0.290982, min(0.215155, 0.214018)) 0 )",
+			"computed": "oklch(0.750521 0.361212 0)"
+		},
+		{
+			"declared": "lab( none none -125 )",
+			"computed": "lab(none none -125)"
+		},
+		{
+			"declared": "hsl( 180 none calc(sin(exp(-61.439383)) + 11.610649) )",
+			"computed": "rgb(30, 30, 30)"
+		},
+		{
+			"declared": "oklab( 0.5 none -0.159418 )",
+			"computed": "oklab(0.5 none -0.159418)"
+		},
+		{
+			"declared": "oklch( from color( xyz-d65 abs(0) 0.848978 0.920782 / 0.80835 ) none 0.067687 180 )",
+			"computed": "oklch(none 0.067687 180 / 0.80835)"
+		},
+		{
+			"declared": "hsl( 0 43.531814 41.421196 / 0 )",
+			"computed": "rgba(152, 60, 60, 0)"
+		},
+		{
+			"declared": "oklch( hypot(cos(calc(586.047628deg / calc(infinity))), 0.352099) none min(360, 67.368831) )",
+			"computed": "oklch(1 none 67.368828)"
+		},
+		{
+			"declared": "lch( 100 57.80656 81.539904 )",
+			"computed": "lch(100 57.806561 81.539902)"
+		},
+		{
+			"declared": "oklch( calc(pi) 0.24358 calc(159.378627) )",
+			"computed": "oklch(1 0.24358 159.378632)"
+		},
+		{
+			"declared": "oklch( from color( from color( from color( xyz-d50 calc(nan) 0.147588 none / 0.644597 ) a98-rgb alpha 0.00008 calc(-infinity) ) display-p3-linear r 0.5 1 ) none 0.326446 c )",
+			"computed": "oklch(none 0.326446 0.188463 / 0.644597)"
+		},
+		{
+			"declared": "lab( none sin(98.886548) 125 )",
+			"computed": "lab(none -0.997291 125)"
+		},
+		{
+			"declared": "hwb( from color( display-p3 clamp(0.802235, calc(calc(0 / calc(infinity)) * calc(-2.270425 / 1.5)), 0.15989) 0.5 calc(calc(0.392495 + 0.048339) + hypot(exp(100), 0.333333)) ) calc(b / alpha) 100 none / none )",
+			"computed": "color(srgb 1 1 1 / none)"
+		},
+		{
+			"declared": "hsl( 251.846749 none cos(-187.639487deg) / clamp(clamp(1, abs(calc(pi)), 0), sin(1), 0.620274) )",
+			"computed": "rgb(0, 0, 0)"
+		},
+		{
+			"declared": "contrast-color(color( from color( xyz-d65 none none 0.997087 / 71.797342% ) display-p3 1 none 0 ))",
+			"computed": "rgb(0, 0, 0)"
+		},
+		{
+			"declared": "rgb( from color( from color( from color( prophoto-rgb abs(0.751298) calc(pi) 0.01792 ) srgb 0 0 0.5 / 0.788136 ) display-p3 0.759463 0.713658 calc(2.393705 / b) ) none 0 none )",
+			"computed": "color(srgb none 0 none / 0.788136)"
+		},
+		{
+			"declared": "color( xyz-d65 none 0.354107 none )",
+			"computed": "color(xyz-d65 none 0.354107 none)"
+		},
+		{
+			"declared": "oklch( 0 0.188745 none / 0.312419 )",
+			"computed": "oklch(0 0.188745 none / 0.312419)"
+		},
+		{
+			"declared": "lab( 0 18.621462 calc(pi) / 86.855682% )",
+			"computed": "lab(0 18.621462 3.141593 / 0.868557)"
+		},
+		{
+			"declared": "rgb( from color( xyz-d65 1 none 1 ) alpha none cos(r) / 0.667869 )",
+			"computed": "color(srgb 0.003922 none 0.003768 / 0.667869)"
+		},
+		{
+			"declared": "color( display-p3 abs(1) 0.981941 none / 0.5 )",
+			"computed": "color(display-p3 1 0.981941 none / 0.5)"
+		},
+		{
+			"declared": "hwb( hypot(calc(91.614105 + calc(infinity)), 360) 86.974146 min(14.309185, calc(nan)) / 0.738563 )",
+			"computed": "rgba(255, 222, 222, 0.737)"
+		},
+		{
+			"declared": "hwb( 180 71.949066 37.587418 / 0.934626 )",
+			"computed": "rgba(167, 167, 167, 0.933)"
+		},
+		{
+			"declared": "rgb( from color( xyz 0.660386 cos(270.929116deg) 0 ) 170 141.640994 253.193691 )",
+			"computed": "color(srgb 0.666667 0.555455 0.992916)"
+		},
+		{
+			"declared": "color( from color( xyz-d50 none 0.838882 calc(pi) ) xyz-d50 0 clamp(0, 0, calc(0 - max(y, 0.292014))) cos(-146.516368deg) )",
+			"computed": "color(xyz-d50 0 0 -0.834043)"
+		},
+		{
+			"declared": "rgb( from color( from color( from color( xyz-d50 0.327099 sin(0.363944) calc(0.589245 - calc(infinity)) / 0.093336 ) display-p3-linear calc(1.049664 - 0) abs(0.107593) 0 ) xyz-d65 calc(pi) 1 abs(x) ) 89.608803 clamp(calc(g * -2), 42.05673, cos(349.083941deg)) b )",
+			"computed": "color(srgb 0.351407 2.123756 0.761638 / 0.093336)"
+		},
+		{
+			"declared": "hwb( from color( from color( srgb none 0.501339 none ) prophoto-rgb b 0 0 ) 161.781168 58.267949 none )",
+			"computed": "color(srgb 0.58268 1 0.873282)"
+		},
+		{
+			"declared": "oklab( from color( srgb calc(e) abs(0) 0 / 0.589259 ) a 0.4 -0.303527 )",
+			"computed": "oklab(0.487205 0.4 -0.303527 / 0.589259)"
+		},
+		{
+			"declared": "color( xyz-d65 0.411886 0.295181 0.898762 )",
+			"computed": "color(xyz-d65 0.411886 0.295181 0.898762)"
+		},
+		{
+			"declared": "hsl( 139.567303 calc(infinity) 50 )",
+			"computed": "rgb(0, 255, 0)"
+		},
+		{
+			"declared": "hwb( none 52.950247 hypot(calc(infinity), clamp(9.809282, 53.117561, calc(0 / 0.35307))) / max(0.75302, calc(e)) )",
+			"computed": "rgb(0, 0, 0)"
+		},
+		{
+			"declared": "oklch( 0 0.305743 236.751187 )",
+			"computed": "oklch(0 0.305743 236.75119)"
+		},
+		{
+			"declared": "color-mix( in rec2020 , color( xyz 0.840428 0 1 ) , color( from color( srgb calc(e) 0.834866 0 / 48.24101% ) xyz 0.485381 0 z ) )",
+			"computed": "color(rec2020 1.01925 none 0.825659 / 0.741205)"
+		},
+		{
+			"declared": "hwb( from color( display-p3-linear calc(-infinity) 0.498093 0.265947 ) 360 none 90.9253 / calc(h * sin(-1.498515)) )",
+			"computed": "color(srgb 0.090747 0 0 / 0)"
+		},
+		{
+			"declared": "rgb( from color( from color( from color( xyz-d50 none 0.349999 calc(-infinity) ) a98-rgb 0.891044 none g ) srgb-linear g 0.487974 alpha ) g none r / g )",
+			"computed": "color(srgb 0.72738 none 0)"
+		},
+		{
+			"declared": "rgb( 0 0 0 )",
+			"computed": "rgb(0, 0, 0)"
+		},
+		{
+			"declared": "oklch( 0.760401 0 254.713758 )",
+			"computed": "oklch(0.760401 0 254.71376)"
+		},
+		{
+			"declared": "oklab( from color( xyz-d65 0 none 0 ) calc(nan) -0.4 b )",
+			"computed": "oklab(0 -0.4 0)"
+		},
+		{
+			"declared": "hwb( from color( xyz-d65 calc(nan) calc(infinity) 0.818869 ) w none alpha )",
+			"computed": "color(srgb 0.99 0 0)"
+		},
+		{
+			"declared": "oklab( 0.417264 -0.063559 0.396159 / 0.905242 )",
+			"computed": "oklab(0.417264 -0.063559 0.396159 / 0.905242)"
+		},
+		{
+			"declared": "color( prophoto-rgb calc(0.169183 * calc(e)) 0.426778 0.282458 / 0.978624 )",
+			"computed": "color(prophoto-rgb 0.459887 0.426778 0.282458 / 0.978624)"
+		}
+	]
+}

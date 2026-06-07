@@ -19,29 +19,31 @@ function calc(unit = '', globals = [], min = 0, max = 1, depth = 0) {
 		'unary',
 
 		// TODO
-		// 'abs',
 		// 'acos',
 		// 'asin',
 		// 'atan',
 		// 'atan2',
-		// 'calc',
-		// 'clamp',
-		// 'cos',
-		// 'exp',
-		// 'hypot',
+		'clamp',
+		'cos',
+		'exp',
+		'hypot',
 		// 'log',
-		// 'max',
-		// 'min',
+		'max',
+		'min',
 		// 'mod',
 		// 'pow',
 		// 'random',
 		// 'rem',
 		// 'round',
 		// 'sign',
-		// 'sin',
+		'sin',
 		// 'sqrt',
 		// 'tan',
 	]
+
+	if (unit === '') {
+		ops.push('abs')
+	}
 
 	const op = ops[randomIndex(ops.length)];
 	
@@ -65,6 +67,25 @@ function calc(unit = '', globals = [], min = 0, max = 1, depth = 0) {
 		case 'unary':
 			return `calc(${randomCalc(unit, globals, min, max, depth + 1)})`;
 	
+		case 'abs':
+			return `abs(${randomCalc('', globals, min, max, depth + 1) })`
+		case 'clamp':
+			return `clamp(${randomCalc(unit, globals, min, max, depth + 1)}, ${randomCalc(unit, globals, min, max, depth + 1)}, ${randomCalc(unit, globals, min, max, depth + 1) })`;
+		case 'cos':
+			return `cos(${randomCalc('deg', globals, -360, 360, depth + 1)})`
+		case 'exp':
+			return `exp(${randomCalc('', globals, -100, 100, depth + 1)})`
+		case 'hypot':
+			return `hypot(${randomCalc(unit, globals, min, max, depth + 1)}, ${randomCalc(unit, globals, min, max, depth + 1)})`;
+		
+		case 'min':
+			return `min(${randomCalc(unit, globals, min, max, depth + 1)}, ${randomCalc(unit, globals, min, max, depth + 1)})`;
+		case 'max':
+			return `max(${randomCalc(unit, globals, min, max, depth + 1)}, ${randomCalc(unit, globals, min, max, depth + 1)})`;
+		
+		case 'sin':
+			return `sin(${randomCalc(unit, globals, min, max, depth + 1)})`;
+		
 		default:
 			break;
 	}
