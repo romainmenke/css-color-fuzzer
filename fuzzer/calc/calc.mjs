@@ -76,7 +76,7 @@ function calc(unit = '', globals = [], min = 0, max = 1, depth = 0) {
 		case 'exp':
 			return `exp(${randomCalc('', globals, -100, 100, depth + 1)})`
 		case 'hypot':
-			return `hypot(${randomCalc(unit, globals, min, max, depth + 1)}, ${randomCalc(unit, globals, min, max, depth + 1)})`;
+			return `hypot(${randomCalc('', globals, min, max, depth + 1)}, ${randomCalc('', globals, min, max, depth + 1)})`;
 		
 		case 'min':
 			return `min(${randomCalc(unit, globals, min, max, depth + 1)}, ${randomCalc(unit, globals, min, max, depth + 1)})`;
@@ -131,6 +131,10 @@ function number(globals = [], min = 0, max = 1) {
 		}
 	}
 
+	if (globals.length > 0 && randomIndex(2) === 0) {
+		return globals[randomIndex(globals.length)];
+	}
+
 	const constants = [
 		'calc(e)',
 		'calc(pi)',
@@ -139,11 +143,7 @@ function number(globals = [], min = 0, max = 1) {
 		'calc(nan)',
 	]
 
-	if (globals.length > 0 && randomIndex(2) === 0) {
-		return globals[randomIndex(globals.length)];
-	}
-
-	if (randomIndex(5) === 0) { // most use cases should just produce a number.
+	if (randomIndex(10) === 0) { // most use cases should just produce a number.
 		return constants[randomIndex(constants.length)];
 	}
 
