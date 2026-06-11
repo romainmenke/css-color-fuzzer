@@ -130,6 +130,22 @@ function reducePrecision(color) {
 	return stringify(...tokens)
 }
 
+function padNumbers(color) {
+	const tokens = tokenize({ css: color.trim() });
+
+	const functionName = tokens[0][4].value
+
+	let counter = 0;
+	for (let i = 0; i < tokens.length; i++) {
+		const token = tokens[i];
+		if (isTokenNumeric(token)) {
+			token[1] = token[1].padEnd(20, ' ');
+		}
+	}
+
+	return stringify(...tokens)
+}
+
 function nanToNone(component) {
 	if (Number.isNaN(component)) {
 		return `none`;
@@ -169,17 +185,29 @@ function csstoolsColor(declared) {
 			return `oklch(${nanToNone(colorData.channels[0])} ${nanToNone(colorData.channels[1])} ${nanToNone(colorData.channels[2])})`;
 		
 		case 'rgb':
+			if (colorData.channels.some(Number.isNaN) || Number.isNaN(colorData.alpha)) {
+				if (colorData.alpha !== 1) {
+					return `color(srgb ${nanToNone(colorData.channels[0])} ${nanToNone(colorData.channels[1])} ${nanToNone(colorData.channels[2])} / ${nanToNone(colorData.alpha)})`;
+				}
+
+				return `color(srgb ${nanToNone(colorData.channels[0])} ${nanToNone(colorData.channels[1])} ${nanToNone(colorData.channels[2])})`;
+			}
+
 			if (colorData.syntaxFlags.has('relative-color-syntax')) {
 				return csstoolsColor(`color(from ${declared} srgb r g b / alpha)`);
 			}
 			
 			if (colorData.alpha !== 1) {
-				return `rgb(${nanToNone(colorData.channels[0] * 255)} ${nanToNone(colorData.channels[1] * 255)} ${nanToNone(colorData.channels[2] * 255)} / ${nanToNone(colorData.alpha)})`;
+				return `rgba(${nanToNone(colorData.channels[0] * 255)}, ${nanToNone(colorData.channels[1] * 255)}, ${nanToNone(colorData.channels[2] * 255)}, ${nanToNone(colorData.alpha)})`;
 			}
 
-			return `rgb(${nanToNone(colorData.channels[0] * 255)} ${nanToNone(colorData.channels[1] * 255)} ${nanToNone(colorData.channels[2] * 255)})`;
+			return `rgb(${nanToNone(colorData.channels[0] * 255)}, ${nanToNone(colorData.channels[1] * 255)}, ${nanToNone(colorData.channels[2] * 255)})`;
 		
-		case 'hsl':
+		case 'hsl': {
+			if (colorData.syntaxFlags.has('relative-color-syntax')) {
+				return csstoolsColor(`color(from ${declared} srgb r g b / alpha)`);
+			}
+
 			if (colorData.channels.some(Number.isNaN) || Number.isNaN(colorData.alpha)) {
 				if (colorData.alpha !== 1) {
 					return `hsl(${nanToNone(colorData.channels[0])} ${nanToNone(colorData.channels[1])} ${nanToNone(colorData.channels[2])} / ${nanToNone(colorData.alpha)})`;
@@ -188,9 +216,18 @@ function csstoolsColor(declared) {
 				return `hsl(${nanToNone(colorData.channels[0])} ${nanToNone(colorData.channels[1])} ${nanToNone(colorData.channels[2])})`;
 			}
 
-			return csstoolsColor(`color(from ${declared} srgb r g b / alpha)`);
-		
-		case 'hwb':
+			const rgbColorData = color(parseComponentValue(tokenize({ css: `rgb(from ${declared} r g b / alpha)` })));
+			if (rgbColorData.alpha !== 1) {
+				return `rgba(${nanToNone(rgbColorData.channels[0] * 255)}, ${nanToNone(rgbColorData.channels[1] * 255)}, ${nanToNone(rgbColorData.channels[2] * 255)}, ${nanToNone(rgbColorData.alpha)})`;
+			}
+
+			return `rgb(${nanToNone(rgbColorData.channels[0] * 255)}, ${nanToNone(rgbColorData.channels[1] * 255)}, ${nanToNone(rgbColorData.channels[2] * 255)})`;
+		}
+		case 'hwb': {
+			if (colorData.syntaxFlags.has('relative-color-syntax')) {
+				return csstoolsColor(`color(from ${declared} srgb r g b / alpha)`);
+			}
+
 			if (colorData.channels.some(Number.isNaN) || Number.isNaN(colorData.alpha)) {
 				if (colorData.alpha !== 1) {
 					return `hwb(${nanToNone(colorData.channels[0])} ${nanToNone(colorData.channels[1])} ${nanToNone(colorData.channels[2])} / ${nanToNone(colorData.alpha)})`;
@@ -199,8 +236,13 @@ function csstoolsColor(declared) {
 				return `hwb(${nanToNone(colorData.channels[0])} ${nanToNone(colorData.channels[1])} ${nanToNone(colorData.channels[2])})`;
 			}
 
-			return csstoolsColor(`color(from ${declared} srgb r g b / alpha)`);
-		
+			const rgbColorData = color(parseComponentValue(tokenize({ css: `rgb(from ${declared} r g b / alpha)` })));
+			if (rgbColorData.alpha !== 1) {
+				return `rgb(${nanToNone(rgbColorData.channels[0] * 255)} ${nanToNone(rgbColorData.channels[1] * 255)} ${nanToNone(rgbColorData.channels[2] * 255)} / ${nanToNone(rgbColorData.alpha)})`;
+			}
+
+			return `rgb(${nanToNone(rgbColorData.channels[0] * 255)} ${nanToNone(rgbColorData.channels[1] * 255)} ${nanToNone(rgbColorData.channels[2] * 255)})`;
+		}
 		case 'srgb':
 			if (colorData.alpha !== 1) {
 				return `color(srgb ${nanToNone(colorData.channels[0])} ${nanToNone(colorData.channels[1])} ${nanToNone(colorData.channels[2])} / ${nanToNone(colorData.alpha)})`;
@@ -276,9 +318,6 @@ function csstoolsColor(declared) {
 			break;
 	}
 	
-	console.log(declared);
-	console.log(colorData);
-	
 	throw new Error('unsupported color');
 }
 
@@ -291,10 +330,10 @@ for (let i = 0; i < results.chromium.length; i++) {
 	if (reducePrecision(webkitResult.computed) !== reducePrecision(chromiumResult.computed) || reducePrecision(webkitResult.computed) !== reducePrecision(firefoxResult.computed)) {
 		console.log('--------------');
 		console.log(`declared: ${webkitResult.declared}`);
-		console.log(`computed - chromium : ${chromiumResult.computed}`);
-		console.log(`computed - firefox  : ${firefoxResult.computed}`);
-		console.log(`computed - webkit   : ${webkitResult.computed}`);
-		console.log(`computed - csstools : ${reducePrecision(csstoolsColor(webkitResult.declared))}`);
+		console.log(`computed - chromium : ${padNumbers(chromiumResult.computed)}`);
+		console.log(`computed - firefox  : ${padNumbers(firefoxResult.computed)}`);
+		console.log(`computed - webkit   : ${padNumbers(webkitResult.computed)}`);
+		console.log(`computed - csstools : ${padNumbers(csstoolsColor(webkitResult.declared))}`);
 	}
 }
 

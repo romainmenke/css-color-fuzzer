@@ -14,7 +14,7 @@ export function randomColor(depth = 0) {
 
 	if (depth <= 3 && randomBoolean()) {
 		functions.push('color-mix');
-		functions.push('contrast-color');
+		// functions.push('contrast-color');
 		// functions.push('light-dark');
 		// functions.push('alpha'); // wait for implementations
 	}

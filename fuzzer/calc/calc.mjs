@@ -24,8 +24,6 @@ function calc(unit = '', globals = [], min = 0, max = 1, depth = 0) {
 		// 'atan',
 		// 'atan2',
 		'clamp',
-		'cos',
-		'exp',
 		'hypot',
 		// 'log',
 		'max',
@@ -36,13 +34,19 @@ function calc(unit = '', globals = [], min = 0, max = 1, depth = 0) {
 		// 'rem',
 		// 'round',
 		// 'sign',
-		'sin',
 		// 'sqrt',
 		// 'tan',
 	]
 
 	if (unit === '') {
 		ops.push('abs')
+		ops.push('cos')
+		ops.push('exp')
+		ops.push('sin')
+	}
+
+	if (unit === 'deg') {
+		// functions that return degrees
 	}
 
 	const op = ops[randomIndex(ops.length)];
@@ -76,8 +80,8 @@ function calc(unit = '', globals = [], min = 0, max = 1, depth = 0) {
 		case 'exp':
 			return `exp(${randomCalc('', globals, -100, 100, depth + 1)})`
 		case 'hypot':
-			return `hypot(${randomCalc('', globals, min, max, depth + 1)}, ${randomCalc('', globals, min, max, depth + 1)})`;
-		
+			return `hypot(${randomCalc(unit, globals, min, max, depth + 1)}, ${randomCalc(unit, globals, min, max, depth + 1)})`;
+
 		case 'min':
 			return `min(${randomCalc(unit, globals, min, max, depth + 1)}, ${randomCalc(unit, globals, min, max, depth + 1)})`;
 		case 'max':
